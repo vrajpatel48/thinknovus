@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="w-96 m-auto bg-green-200">
+    <div class="bg-white py-8 mt-9">
+      <div>
+        <h1 class="text-2xl">contact us</h1>
+      </div>
+      <form action="">
+        <div class="flex gap-5 flex-row">
+          <div>
+            <label class="">first name</label><br />
+            <input type="text" class="border-2 border-black" />
+          </div>
+          <div>
+            <label class="">second name</label><br />
+            <input type="text" class="border-2 border-black" />
+          </div>
+        </div>
+        <div>
+          <label for="">email address</label><br />
+          <input type="email" class="border-2 border-black w-96" />
+        </div>
+        <div class="">
+          <label for="">query type</label><br />
+          <div class="flex gap-7">
+            <div class="border-2 border-black px-5 py-1">
+              <input type="radio" /><label for="" class="px-1"
+                >general inquiry</label
+              >
+            </div>
+            <div class="border-2 border-black px-5 py-1">
+              <input type="radio" /><label for="" class="px-1"
+                >support request</label
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <label for="">message</label>
+          <input type="text" class="w-96 h-20 border-2 border-black" />
+        </div>
+        <div>
+          <input type="checkbox" />
+          <label for="">i consted to being contacted by th team</label>
+        </div>
+        <button class="w-96 bg-green-900 text-white">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
